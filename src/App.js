@@ -13,7 +13,7 @@ function App() {
           <CounterHooks initialCount={0} />
           <div>
             <button onClick={() => setTheme(prevTheme => {
-              return prevTheme === 'lightblue' ? 'pink' : 'lightblue'
+              return prevTheme === 'lightblue' ? 'orange' : 'lightblue'
             })}>Toggle Theme</button>
           </div>
         </div>
